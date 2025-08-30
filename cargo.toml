@@ -1,0 +1,36 @@
+# Cargo.toml
+[package]
+name = "rp2040-temp-printer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+embedded-hal = "0.2.7"
+nb = "1.0"
+panic-halt = "0.2"
+rp-pico = "0.8"
+embedded-time = "0.12"
+dht-sensor = "0.2"
+usbd-serial = "0.1"
+usb-device = "0.2"
+
+[dependencies.rp2040-hal]
+version = "0.9"
+features = ["rt", "critical-section-impl"]
+
+# memory configuration
+[profile.release]
+debug = 2
+lto = true
+opt-level = "s"
+
+[[bin]]
+name = "rp2040-temp-printer"
+test = false
+bench = false
+
+[profile.dev]
+debug = true
+lto = false
