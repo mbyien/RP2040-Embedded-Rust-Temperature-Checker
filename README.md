@@ -7,7 +7,6 @@ A comprehensive temperature and humidity logging system built with Rust for the 
 - 🌡️ **DHT22 Temperature & Humidity Sensing**
 - 🖨️ **Text Output** with formatted receipts
 - ⏰ **Multiple RTC Options** (Built-in, DS3231, Software-based)
-- 📊 **Temperature Difference Tracking** and analytics
 - 🔢 **Print Counter** with automatic summaries
 - 💻 **USB Serial Interface** for commands and monitoring
 - 📝 **File Logging Support** (SD card ready)
