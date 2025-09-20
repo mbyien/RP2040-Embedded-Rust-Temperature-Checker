@@ -39,7 +39,7 @@ Optional DS3231 RTC:
 ├─ 3.3V         ──── VCC
 └─ GND          ──── GND
 
-USB Thermal Printer:
+USB Serial:
 └─ USB Port     ──── Connect to computer/hub
 ```
 
@@ -210,11 +210,6 @@ panic-halt = "0.2"                 # Panic handler
 - For DS3231: Check battery and I2C connections
 - Verify I2C address (0x68 for DS3231)
 
-**Thermal printer not working:**
-- Check USB connection and drivers
-- Verify ESC/POS compatibility
-- Try different baud rate
-- Test with simple text first
 
 **Serial commands not recognized:**
 - Ensure 115200 baud rate
