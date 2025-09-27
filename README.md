@@ -1,6 +1,6 @@
 # Embedded-Rust-Temperature-Checker-RP2040
 
-A comprehensive temperature and humidity logging system built with Rust for the Raspberry Pi Pico (RP2040), featuring multiple RTC options, thermal printer support, and detailed analytics.
+A robust temperature and humidity logging system developed in Rust for the Raspberry Pi Pico (RP2040). The system supports multiple real-time clock (RTC) configurations, provides UART-based data export in .txt format, and includes comprehensive analytics for detailed monitoring and evaluation.
 
 ## Features
 
